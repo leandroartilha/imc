@@ -1,0 +1,81 @@
+
+body{
+    background-color:wheat;
+}
+
+.tituloGeral{
+    font-size: 2.4em;
+    text-align: center;
+    margin: 2em 0 1.3em 0;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.container{
+    border-radius: 7px;
+    margin-left: 38%;
+    margin-right: 38%;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1.2em;
+    background-color: cadetblue;
+    padding-left: 4em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    box-shadow: inset 0 0 1em gray, 0 0 1em black;
+}
+
+.form-group, .mostraImc{
+    margin-top: 1em;
+   
+}
+
+.resultados{
+    margin-left: 38%;
+    margin-top: 3em;
+    background-color: tomato;
+    margin-right: 38%;
+    padding: 1em 1em 1em 1em;
+    border-radius: 1em;
+}
+
+#btnEnviar{
+    margin-top: 1em;
+    width: 5em;
+    font-size: 1em;
+    margin-left: 2em;
+    height: 1.7em;
+}
+
+#btnEnviar:hover{
+    background-color: purple;
+    color: white;
+    transition-duration: 300ms;
+    cursor:pointer;
+    border-style:groove;
+}
+
+.pessoa{
+    margin-top: 0.5em;
+    font-family: 'Libre Franklin', sans-serif;
+
+}
+
+input{
+    border-radius: 4px;
+    border-width: 0ch;
+    height: 2em;
+    font-size: 0.8em;
+}
+
+.imcApagado{
+    font-size: 1em;
+    width: 10em;
+    margin-bottom: 1em;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+}
+
+#aviso{
+    font-size: 1.2em;
+    margin-right: 1.4em;
+}
